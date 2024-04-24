@@ -1,0 +1,26 @@
+#pEtitre
+{
+	font-size: 30px;
+	color: orange;
+}
+#pEp
+{
+	font-size: 18px;
+}
+fieldset
+{
+	padding: 20px;
+/*	text-align: center;*/
+	font-size: 18px;
+}
+label
+{
+	float: left;
+	width: 200px;
+	text-align: right;
+	padding-right: 30px;
+}
+#submit
+{
+	margin-left: 322px;
+}

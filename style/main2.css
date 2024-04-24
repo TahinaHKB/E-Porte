@@ -1,0 +1,171 @@
+body{
+    background-color: #1B252E;
+    margin:0 ;
+}
+img{
+    object-fit: cover;
+    max-width: 100%;
+}
+
+#header div{
+    background-image: url(../images/header/nouvelle-technologie-2~2.jpg);
+    background-size: cover;
+    width: 100%;
+    height:450px;
+}
+
+#header div img{
+    width: 75px;
+    height: 75px;
+    margin: 100px 0px 0px 200px;
+}
+
+#header div h1{
+    margin-left: 50px;
+    color: white;
+    font-family: 'Graduate',cursive;
+}
+
+/**SECTION**/
+
+#section h1{
+    margin: 75px;
+    color: white;
+}
+
+#section div{
+    margin: 50px 0px 75px 0px;
+}
+
+#section div img{
+    width: 75px;
+    height: 75px;
+    margin-left: 75px;
+}
+
+
+#section div nav{
+   height: 50px;
+   width: 175px;
+   font-weight: 100px;
+   background-color: #857979;
+   margin-left: 25px;
+   border-radius: 10px;
+   text-align: center;
+   align-items: center;
+}
+
+#section div nav p a{
+    color:black;
+    margin-top: 15px;
+}
+
+
+body{
+    background-color: #1B252E;
+    margin:0 ;
+}
+img{
+    object-fit: cover;
+    max-width: 100%;
+}
+
+#header div{
+    background-image: url(../images/header/nouvelle-technologie-2~2.jpg);
+    background-size: cover;
+    width: 100%;
+    height:450px;
+}
+
+#header div img{
+    width: 75px;
+    height: 75px;
+    margin: 100px 0px 0px 200px;
+}
+
+#header div h1{
+    margin-left: 50px;
+    color: white;
+    font-family: 'Graduate',cursive;
+}
+
+/**SECTION**/
+
+#section h1{
+    margin: 75px;
+    color: #2E62B1;
+}
+
+#section div{
+    margin: 50px 0px 75px 0px;
+}
+
+#section div img{
+    width: 75px;
+    height: 75px;
+    margin-left: 75px;
+}
+
+
+#section div nav{
+	padding-top: 1px;
+   width: 175px;
+   font-weight: 100px;
+   background-color: #857979;
+   margin-left: 25px;
+   border-radius: 10px;
+   text-align: center;
+   align-items: center;
+}
+
+#section div nav p a{
+    color:white;
+    margin-top: 15px;
+}
+#section
+{
+	display: inline-block;
+	vertical-align: top;
+/*	border: 1px solid white;*/
+	float: left;
+}
+#contenu
+{
+	margin-top: 500px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1px;
+    margin-left: 80px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 71%;
+    max-height: 1000px;
+    overflow: auto;
+}
+#filtre h1
+{
+	margin: 0;
+}
+#filtre
+{
+	padding: 10px;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+#filtre label
+{
+	float: left;
+	width: 55px;
+	text-align: right;
+	padding-right: 30px;
+}
+#lien nav p a 
+{
+	text-decoration: none;
+}
+#lien nav:hover
+{
+	background: rgb(155, 24, 12);
+}
+

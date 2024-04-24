@@ -1,0 +1,76 @@
+table
+{
+	width: 90%;
+	color: white;
+	background: none;
+	margin: 0 auto;
+}
+caption
+{
+	color: rgb(150, 150, 120);
+	border-radius: 20px;
+}
+th
+{
+	color: rgb(150, 150, 120);
+	border-radius: 10px;
+}
+td
+{
+	border-radius: 10px;
+	text-align: center;
+}
+#titulaire
+{
+	background: rgb(10, 40, 100);
+}
+#fonction
+{
+	background: rgb(10, 10, 80);
+}
+#datess
+{
+	background: rgb(30, 10, 80);
+}
+.toggle
+{
+	position: relative;
+	display: inline-block;
+	width: 100px;
+	height: 52px;
+	background: red;
+	border-radius: 30px;
+	border: 2px solid grey;
+}
+.toggle:after
+{
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: gray;
+	top: 1px;
+	left: 1px;
+	transition: all 0.5s;
+}
+p 
+{
+/*	font-family: Arial, Helvetica, sans-serif;*/
+	font-weight: bold;
+}
+.checkbox:checked + .toggle::after{
+	left: 49px;
+}
+.checkbox:checked + .toggle{
+	background: green;
+}
+.checkbox{
+	display: none;
+}
+
+
+
+
+
+

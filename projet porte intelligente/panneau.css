@@ -1,0 +1,102 @@
+body
+{
+    background: #333;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+/*  border: 1px solid red;*/
+}
+#conteneur
+{
+    height: 650px;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: #EEE;
+}
+#openImage
+{
+/*  border: 1px solid red;*/
+    height: 240px;
+    background-image: url(../images/timage1.jpg);
+    background-size: cover;
+}
+#openImage h1
+{
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    padding-top: 180px;
+    padding-right: 20px;
+    font-family: Lucida Calligraphy;
+    color: rgb(255, 15, 70);
+}
+#menuGauche
+{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+nav 
+{
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+nav div 
+{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #66696c;
+}
+nav div a 
+{
+    text-decoration: none;
+    color: #faf9ff;
+}
+nav div:hover
+{
+    background: #f92929;
+}
+#filtre
+{
+    border: 1px solid black;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#filtre h1
+{
+    margin: 0;
+    font-size: 16px;
+}
+#filtre input
+{
+    width: 80px;
+}
+#filtre label
+{
+    font-size: 13px;
+    float: left;
+    width: 50px;
+/*  border: 1px solid black;*/
+    text-align: right;
+    padding-right: 2px;
+}
+section
+{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 71%;
+    height: 370px;
+    overflow: auto;
+}
